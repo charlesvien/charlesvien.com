@@ -2,7 +2,6 @@ import React from "react";
 import { withTheme } from "styled-components";
 import copy from "copy-text-to-clipboard";
 import Swal from "sweetalert2";
-import ChangelogEntry from "../components/landing/ChangelogEntry";
 import { Box } from "../components/shared/Box";
 import { Link } from "../components/shared/Link";
 import { Typography } from "../components/shared/Typography";
@@ -58,12 +57,11 @@ const Landing = ({ theme }: LandingProps) => {
         display="flex"
         style={{
           gap: "30px",
-          textDecoration: "underline",
         }}
       >
         <Box>
           <Link
-            color={theme.colors.text}
+            color={theme.colors.blue}
             target="_blank"
             href={config.links.twitter}
           >
@@ -72,15 +70,17 @@ const Landing = ({ theme }: LandingProps) => {
         </Box>
         <Box
           onClick={handleCopyDiscord}
+          color={theme.colors.yellow}
           style={{
             cursor: "pointer",
+            textDecoration: "underline",
           }}
         >
-          discord
+          <Typography color={theme.colors.yellow}>discord</Typography>
         </Box>
         <Box>
           <Link
-            color={theme.colors.text}
+            color={theme.colors.pink}
             target="_blank"
             href={config.links.github}
           >
@@ -89,7 +89,7 @@ const Landing = ({ theme }: LandingProps) => {
         </Box>
         <Box>
           <Link
-            color={theme.colors.text}
+            color={theme.colors.green}
             target="_blank"
             href={config.links.blog}
           >
@@ -97,7 +97,7 @@ const Landing = ({ theme }: LandingProps) => {
           </Link>
         </Box>
       </Box>
-      <Box>
+      <Box maxWidth="700px">
         <Typography>
           Hi,
           {
@@ -115,7 +115,8 @@ const Landing = ({ theme }: LandingProps) => {
           >
             Branch
           </Link>{" "}
-          in Seattle!
+          in Seattle! I enjoy building and investing in the crypto space,
+          playing video games and meeting new friends in my free time!
         </Typography>
       </Box>
       <Box>
@@ -144,7 +145,8 @@ const Landing = ({ theme }: LandingProps) => {
           <Typography>
             {
               // eslint-disable-next-line
-              "A lot has happened over the past few years. Here's some of the highlights."
+              "A lot has happened over the past few years."
+              // Here's some of the highlights.
             }
           </Typography>
         </Box>
@@ -156,7 +158,7 @@ const Landing = ({ theme }: LandingProps) => {
             gap: "30px",
           }}
         >
-          <ChangelogEntry color={theme.colors.green} date="November 69420">
+          {/* <ChangelogEntry color={theme.colors.green} date="November 69420">
             <span>
               Had <Typography color={theme.colors.green}>child</Typography>
             </span>
@@ -178,8 +180,8 @@ const Landing = ({ theme }: LandingProps) => {
             <span>
               Got <Typography color={theme.colors.green}>vasectomy</Typography>
             </span>
-          </ChangelogEntry>
-          <Box marginTop="10px">
+          </ChangelogEntry> */}
+          <Box>
             <Typography>
               {
                 // eslint-disable-next-line
