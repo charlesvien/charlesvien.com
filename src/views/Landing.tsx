@@ -102,11 +102,11 @@ const Landing = ({ theme }: LandingProps) => {
           Hi,
           {
             // eslint-disable-next-line
-            " i'm "
+            " I'm "
           }
           {
             // eslint-disable-next-line
-            "Charles, and i'm a Software Engineer at "
+            "Charles, and I'm a Software Engineer at "
           }
           <Link
             target="_blank"
