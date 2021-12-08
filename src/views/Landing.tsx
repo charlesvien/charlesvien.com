@@ -91,9 +91,9 @@ const Landing = ({ theme }: LandingProps) => {
           <Link
             color={theme.colors.green}
             target="_blank"
-            href={config.links.blog}
+            href={config.links.wallet}
           >
-            blog
+            wallet
           </Link>
         </Box>
       </Box>
