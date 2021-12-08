@@ -9,7 +9,7 @@ export const config: Config = {
     linkedin: "https://www.linkedin.com/in/charlesvien/",
     github: "https://github.com/charlesvien",
     blog: "https://charlesvien.com/blog",
-    ipfs: "https://www.ipfs.com/",
+    ipfs: "https://ipfs.io/",
   },
 
   discord: "Charles#0039",
