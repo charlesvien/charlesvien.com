@@ -8,7 +8,7 @@ export const config: Config = {
     twitter: "https://twitter.com/charlesvien",
     linkedin: "https://www.linkedin.com/in/charlesvien/",
     github: "https://github.com/charlesvien",
-    blog: "https://charlesvien.com/blog",
+    wallet: "https://unstoppabledomains.com/d/charlesvien.wallet",
     ipfs: "https://ipfs.io/",
   },
 
