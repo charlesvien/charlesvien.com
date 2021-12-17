@@ -9,6 +9,7 @@ export const config: Config = {
     linkedin: "https://www.linkedin.com/in/charlesvien/",
     github: "https://github.com/charlesvien",
     wallet: "https://unstoppabledomains.com/d/charlesvien.wallet",
+    berbs: "https://opensea.io/collection/berbs",
     ipfs: "https://ipfs.io/",
   },
 

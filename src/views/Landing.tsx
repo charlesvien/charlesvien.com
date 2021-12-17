@@ -49,9 +49,6 @@ const Landing = ({ theme }: LandingProps) => {
             </Typography>
           </Box>
         </Box>
-        {/* <Box height="50px">
-          <img width="100%" height="100%" src="/logo.png" alt="Logo" />
-        </Box> */}
       </Box>
       <Box
         display="flex"
@@ -136,6 +133,19 @@ const Landing = ({ theme }: LandingProps) => {
             .
           </Typography>
         </Box>
+        <Box marginTop="20px">
+          <Typography>
+            Where do all of these bird avatars come from?{" "}
+            <Link
+              target="_blank"
+              href={config.links.berbs}
+              color={theme.colors.yellow}
+            >
+              I make (some of) them
+            </Link>
+            !
+          </Typography>
+        </Box>
       </Box>
       <Box>
         <Box>
@@ -158,29 +168,6 @@ const Landing = ({ theme }: LandingProps) => {
             gap: "30px",
           }}
         >
-          {/* <ChangelogEntry color={theme.colors.green} date="November 69420">
-            <span>
-              Had <Typography color={theme.colors.green}>child</Typography>
-            </span>
-          </ChangelogEntry>
-          <ChangelogEntry color={theme.colors.pink} date="November 42060">
-            <span>
-              Got{" "}
-              <Typography color={theme.colors.pink}>
-                reverse vasectomy
-              </Typography>
-            </span>
-          </ChangelogEntry>
-          <ChangelogEntry color={theme.colors.blue} date="November 2069">
-            <span>
-              Got <Typography color={theme.colors.blue}>married</Typography>
-            </span>
-          </ChangelogEntry>
-          <ChangelogEntry color={theme.colors.green} date="November 420">
-            <span>
-              Got <Typography color={theme.colors.green}>vasectomy</Typography>
-            </span>
-          </ChangelogEntry> */}
           <Box>
             <Typography>
               {
