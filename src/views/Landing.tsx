@@ -103,7 +103,7 @@ const Landing = ({ theme }: LandingProps) => {
           }
           {
             // eslint-disable-next-line
-            "Charles, and I'm a Founder at "
+            "Charles, and I'm a Founding Engineer at "
           }
           <Link
             target="_blank"
