@@ -45,7 +45,7 @@ const Landing = ({ theme }: LandingProps) => {
           </Box>
           <Box>
             <Typography fontSize="20px" color={theme.colors.subtext}>
-              Software Engineer in Seattle
+              Founder in Seattle
             </Typography>
           </Box>
         </Box>
@@ -103,7 +103,7 @@ const Landing = ({ theme }: LandingProps) => {
           }
           {
             // eslint-disable-next-line
-            "Charles, and I'm a Software Engineer at "
+            "Charles, and I'm a Founder at "
           }
           <Link
             target="_blank"
