@@ -45,7 +45,7 @@ const Landing = ({ theme }: LandingProps) => {
           </Box>
           <Box>
             <Typography fontSize="20px" color={theme.colors.subtext}>
-              Founder in Seattle
+              Founder
             </Typography>
           </Box>
         </Box>
