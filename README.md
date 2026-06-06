@@ -1,3 +1,12 @@
-This is my personal website deployed on IPFS via Fleek.
+# charlesvien.com
 
-I'm obsessed with crypto and web3, this will become obvious very quickly when getting to know me :P
+My personal website. I update a couple times a decade. Currently a single page, terminal-style site built with Next.js.
+
+## Run
+
+```bash
+pnpm install
+pnpm dev
+```
+
+Open http://localhost:3000

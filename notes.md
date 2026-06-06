@@ -1,0 +1,21 @@
+- [ ]  Update personal website
+    - [ ]  My love of modding started in the 7th and 8th grade where I jailbroke my friends iPod touches to turn them into “iPad Minis” using Cydia (before the iPad Mini came out). I had a journal
+    - [ ]  Write tweet about being isolated in Seattle, building alone, unsure of what I should do. Bad cofounder breakup.
+    - [ ]  Projects and goals and numbers!!
+    - [ ]  https://www.ripgrim.com/
+    - [ ]  https://jyu.dev/
+    - [ ]  https://chrisdoc.dev/about/
+    - [ ]  https://www.linkedin.com/in/parikshitagnihotry/
+    - [ ]  Something personal https://williamyeny.github.io/about/
+    - [ ]  Github squares for working out
+    - [ ]  I like this guys bullet points
+        - [ ]  https://www.linkedin.com/in/harrybienenstock/
+    - [ ]  https://www.jackfriks.com/
+    - [ ]  https://centralhq.com/
+    - [ ]  Mention side projects https://x.com/benhylak/status/1960084122178642209
+    - [ ]  Mention self taught https://x.com/librarymindset/status/1959613560843272533/photo/1
+    - [ ]  https://x.com/YoniSmolyar/status/1960347345612353996
+    - [ ]  I like his bullet points and how he has an article for each one here:
+        - [ ]  https://www.linkedin.com/in/nikitabier/details/experience/
+
+Personal Website
